@@ -244,6 +244,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:>=8.1.0":
+  version: 15.12.4
+  resolution: "@types/node@npm:15.12.4"
+  checksum: 64b121a7e805379382aeb3eefed56c4c34f1ebf5e818ba2c732e43beebc4fbde20be438f3eaaffd8dba5062f0e0c9ae085127b7239906d170eda816885a6c508
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.3
   resolution: "@types/prop-types@npm:15.7.3"
@@ -2207,6 +2214,7 @@ __metadata:
     react-dom: 17.0.2
     react-icons: ^4.2.0
     sass: ^1.35.1
+    stripe: ^8.156.0
     typescript: ^4.3.4
   languageName: unknown
   linkType: soft
@@ -3600,6 +3608,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"qs@npm:^6.6.0":
+  version: 6.10.1
+  resolution: "qs@npm:6.10.1"
+  dependencies:
+    side-channel: ^1.0.4
+  checksum: 25e50a9107322027a998ba4eacec3df4b575c4f0a02cf0602002242d09ac997ab783384b6e90d6264a4d8387de3d17fb177d9c304a0dd9ec706a3087a069b204
+  languageName: node
+  linkType: hard
+
 "querystring-es3@npm:0.2.1, querystring-es3@npm:^0.2.0":
   version: 0.2.1
   resolution: "querystring-es3@npm:0.2.1"
@@ -4373,6 +4390,16 @@ resolve@^2.0.0-next.3:
   version: 3.1.1
   resolution: "strip-json-comments@npm:3.1.1"
   checksum: f16719ce25abc58a55ef82b1c27f541dcfa5d544f17158f62d10be21ff9bd22fde45a53c592b29d80ad3c97ccb67b7451c4833913fdaeadb508a40f5e0a9c206
+  languageName: node
+  linkType: hard
+
+"stripe@npm:^8.156.0":
+  version: 8.156.0
+  resolution: "stripe@npm:8.156.0"
+  dependencies:
+    "@types/node": ">=8.1.0"
+    qs: ^6.6.0
+  checksum: 0a2d78051888e03fdd6f2a9cebbd3cde1ff9b878770bbedce817e8505083273cc7f8193a2a146dffe3f559bd210a87f951d61d2673dd7101af166db047b8dae0
   languageName: node
   linkType: hard
 
