@@ -252,6 +252,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@prismicio/client@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@prismicio/client@npm:5.1.0"
+  dependencies:
+    cross-fetch: ^3.0.6
+  checksum: 94d180b03fa8a8e5913cf6601d41fa9b62565127774e9d09ff4c7775d10653d5ca8175fc66ef18947c1781bb07f021164a84414f3835f80150764f2bde0292a0
+  languageName: node
+  linkType: hard
+
+"@prismicio/helpers@npm:^1.0.4":
+  version: 1.1.1
+  resolution: "@prismicio/helpers@npm:1.1.1"
+  checksum: 181a41d24d0bb80ff33a0fcb4c55779bac4ac851277253326ac58dca8ae7f54ff17e088698fa1b44610b215d4410a7aee6fc1894ce4a778fe0c08c8b31a07fdf
+  languageName: node
+  linkType: hard
+
+"@prismicio/richtext@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@prismicio/richtext@npm:1.1.0"
+  checksum: fae8f4652df15911568502b7d9e13246eb6368af70a5c33d715fd128128baec2195c2232a5f8152b22e3cb0636b6438e1f40486973afcc75cf60ce35785690ab
+  languageName: node
+  linkType: hard
+
 "@rushstack/eslint-patch@npm:^1.0.6":
   version: 1.0.6
   resolution: "@rushstack/eslint-patch@npm:1.0.6"
@@ -316,6 +339,13 @@ __metadata:
   version: 15.12.4
   resolution: "@types/node@npm:15.12.4"
   checksum: 64b121a7e805379382aeb3eefed56c4c34f1ebf5e818ba2c732e43beebc4fbde20be438f3eaaffd8dba5062f0e0c9ae085127b7239906d170eda816885a6c508
+  languageName: node
+  linkType: hard
+
+"@types/prismic-dom@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "@types/prismic-dom@npm:2.1.1"
+  checksum: 9c2902429492202999a86bfaa89fd1affa414b488a77e76deeacf5321eb64381a38b90fb1d6d6b221f5d0e6eb14f278c01ff82acd6f09f8cdc4aef46f4268120
   languageName: node
   linkType: hard
 
@@ -1735,6 +1765,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"escape-html@npm:1.0.3":
+  version: 1.0.3
+  resolution: "escape-html@npm:1.0.3"
+  checksum: 900a7f2b80b9f89c85b7a303d1b7a4d354b93e328871414f165f13c5c209a80eab787e3a63429e596877def69fe4dcb3d1b55af655207a901a9ec99f7f148743
+  languageName: node
+  linkType: hard
+
 "escape-string-regexp@npm:^1.0.2, escape-string-regexp@npm:^1.0.5":
   version: 1.0.5
   resolution: "escape-string-regexp@npm:1.0.5"
@@ -2553,10 +2590,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ignews@workspace:."
   dependencies:
+    "@prismicio/client": ^5.1.0
     "@stripe/stripe-js": ^1.16.0
     "@types/next": ^9.0.0
     "@types/next-auth": ^3.15.0
     "@types/node": ^15.12.3
+    "@types/prismic-dom": ^2.1.1
     "@types/react": ^17.0.11
     axios: ^0.21.1
     eslint: 7.28.0
@@ -2564,6 +2603,7 @@ __metadata:
     faunadb: ^4.3.0
     next: ^11.0.0
     next-auth: ^3.27.3
+    prismic-dom: ^2.2.6
     react: 17.0.2
     react-dom: 17.0.2
     react-icons: ^4.2.0
@@ -4116,6 +4156,17 @@ __metadata:
   version: 3.8.0
   resolution: "pretty-format@npm:3.8.0"
   checksum: 75603b8fa8a7520fbb24bea18869d4c5cf6ae7308637eb95e083eab07e521946bc49a22fa1ac4e567305b406e756badc7febfc1c5acc811fef236db189c511bf
+  languageName: node
+  linkType: hard
+
+"prismic-dom@npm:^2.2.6":
+  version: 2.2.6
+  resolution: "prismic-dom@npm:2.2.6"
+  dependencies:
+    "@prismicio/helpers": ^1.0.4
+    "@prismicio/richtext": ^1.1.0
+    escape-html: 1.0.3
+  checksum: eccd0cd5479eda0fd43921b31c1500d83a5d7e5a993b18eaf3faae10f919c3f3916213b1272b6ae388c80d3b372d07a4f17ecf5586182fad42fa99e7439dcf1b
   languageName: node
   linkType: hard
 
