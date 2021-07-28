@@ -1,5 +1,5 @@
 import Link, { LinkProps } from 'next/link';
-import { useRouter } from 'next/Router';
+import { useRouter } from 'next/router';
 import {ReactElement, cloneElement} from 'react';
 
 
