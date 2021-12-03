@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import { SignInButton } from '../SignInButton';
 import styles from './styles.module.scss';
 import {ActiveLink} from '../ActiveLink'
 
@@ -21,7 +20,6 @@ export function Header() {
           </ActiveLink>
           
         </nav>
-        <SignInButton/>
       </div>
     </header>
   );
